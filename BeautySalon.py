@@ -1,35 +1,4 @@
 # KennedyAnn White
-"""
-Algorithm:
-Initialize variables for cont (to control the loop), prices of styles, and add-ons.
-Print a welcome message to the user.
-Enter a while loop that continues until the user selects 10 (to quit).
-Inside the loop:
-Set Subtotal, Extra, Final_price, and Tip to 0.
-Display a menu with five hair style options, each associated with a price and option 10 to quit.
-Ask the user to select a style (cont is updated with the user’s input).
-If the user selects a specific style:
-Create variables (choice1, choice2, choice3) to track whether add-ons are selected.
-Add the price of the chosen style to Subtotal.
-Enter a second loop to handle add-ons.
-Display a list of possible add-ons.
-Ask the user to select an add-on (cont2 is updated).
-Based on the user’s choice:
-Add the price of the add-on to Extra if compatible with the style.
-Set the choice variable to True to indicate the add-on was selected.
-Display error message if an incorrect add-on is chosen.
-Exit the loop when the user selects the option 20 (to finish choosing add-ons).
-Prompt the user for a tip amount and add it to Tip.
-Print a receipt:
-Print the chosen style and its price.
-List any selected add-ons and their prices.
-If no add-ons were chosen, print "None" for extras.
-Show the tip amount.
-Calculate the final total as Subtotal + Extra + Tip and display it.
-Repeat the process for other styles with similar logic for compatible add-ons and receipt printing.
-
-If the user selects 10 (quit option), print Goodbye and exit the while loop.
-"""
 cont = 0
 Atc_price= 65
 Silk_price = 85
