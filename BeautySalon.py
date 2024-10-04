@@ -24,7 +24,8 @@ while cont != 10:
           f'\n105. Crochet Faux Locs \t ${FL_price}'
           f'\n10. Quit')
     cont = int(input("\n\nChoose your style  "))
-
+    while cont != 101 and cont != 102 and cont != 103 and cont != 104 and cont != 105 and cont != 10:
+            cont= int(input("Please enter a valid number."))
     if  cont == 101:
                 cont2 = 0
                 choice1 = False
@@ -42,6 +43,8 @@ while cont != 10:
                           f'\n205. Take down service (Crochet Faux Locs ONLY) (${TD_price})'
                           f'\n20. Done'
                           f'\n      '))
+                    while cont2 != 201 and cont2 != 202 and cont2 != 203 and cont2 != 204 and cont2 != 205 and cont2 != 20:
+                        cont2= int(input("Please enter a valid number."))
                     if  cont2 == 201:
                             print("This service is for Two-strand Twists or Silk press. Please choose another option.")
                     elif cont2 == 202:
